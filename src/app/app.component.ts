@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularMeals';
+  viewToShow = 'recipe';
+
+  updateView(viewName: string) {
+    this.viewToShow = viewName;
+  }
 }
