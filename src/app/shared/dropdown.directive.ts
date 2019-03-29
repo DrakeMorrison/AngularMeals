@@ -1,8 +1,7 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, OnInit } from '@angular/core';
 
 @Directive({
   selector: '[app-dropdown]'
 })
-export class DropdownDirective {
-  
+export class DropdownDirective implements OnInit {
 }
