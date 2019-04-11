@@ -18,8 +18,8 @@ export class HeaderComponent {
 
   onFetchData() {
     this.dataStorageService.getRecipes().subscribe((response: Response) => {
+      const recipes
       console.log(response);
-      this.recipeService
-    });
+      this.recipeService.updateRecipes
   }
 }
